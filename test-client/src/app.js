@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Nav from '@components/Nav';
 import TaskOne from '@components/taskone/TaskOne';
 import TaskTwo from '@components/tasktwo/TaskTwo';
-import Dashboard from './containers/dashboard';
 import axios from 'axios'
 
 const App = () => (
