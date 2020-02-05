@@ -39,7 +39,8 @@ function TaskTwo (props) {
   }
 
   return (
-   <div className="task-two-container">     
+   <div className="task-two-container">
+     <h1>Task Two</h1>    
       <form>
         <div className="username-search">
           <input type="text" name="search" placeholder="Search for the username" value={name} onChange={e => setName(e.target.value)} />
