@@ -23,7 +23,7 @@ return null;
 }
 
 export const todoGet = () => {
-    store.dispatch({type:actionTypes.USERDATALOADING})
+    store.dispatch({type:actionTypes.TODODATALOADING})
     
     oneinstanceaxios.get('https://jsonplaceholder.typicode.com/todos')
     .then(
